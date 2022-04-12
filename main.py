@@ -65,3 +65,10 @@ ossz = sum(holdak)
 atlag = ossz / len(holdak)
 
 print(f"     3.2: a naprendszerben egy bolygónak átlagosan {atlag} holdja van")
+
+#3
+
+legnagyobb = max([(sor.terfogat_arany,sor.nev) for sor in lista])[1]
+
+print(f"     3.3:a legnagyobb térfogatú bolygó a {legnagyobb}")
+
