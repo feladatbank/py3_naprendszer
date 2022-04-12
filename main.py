@@ -53,4 +53,8 @@ with open("solsys.txt","r",encoding="UTF-8") as f:
   lista = [Bolygok(sor) for sor in f]
 
 #1
-  
+
+print("3. feladat:")
+print(f"     3.1: {len(lista)} bolygó van a naprendszerben")
+
+#2 
