@@ -58,3 +58,10 @@ print("3. feladat:")
 print(f"     3.1: {len(lista)} bolygó van a naprendszerben")
 
 #2 
+
+holdak = [sor.holdszam for sor in lista]
+
+ossz = sum(holdak)
+atlag = ossz / len(holdak)
+
+print(f"     3.2: a naprendszerben egy bolygónak átlagosan {atlag} holdja van")
