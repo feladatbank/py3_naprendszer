@@ -49,3 +49,8 @@ class Bolygok:
     self.holdszam = int(holdszam)
     self.terfogat_arany = float(terfogat_arany)
 
+with open("solsys.txt","r",encoding="UTF-8") as f:
+  lista = [Bolygok(sor) for sor in f]
+
+#1
+  
